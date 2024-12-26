@@ -17,48 +17,53 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
-    <div class="container">
-      <a class="navbar-brand" href="#">Hi<span style="color: #b812d0"> Dev</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Hi<span style="color: #b812d0"> Dev</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item d-flex align-items-center ms-3">
+          <img src="img/espaniol.png" alt="Español" class="language-icon">
+          <img src="img/ingles.png" alt="Inglés" class="language-icon ms-2">
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <!-- Hero Section -->
-  <header class="text-light text-center bg-dark py-5">
-    <div class="container">
-      <h1>Hello 👋</h1>
-      <p class="fs-4">I'm a Web Developer</p>
-      <p class="text-muted">I build things for the web</p>
-      <div class="d-flex justify-content-center gap-3">
-        <div>
-          <h3>3</h3>
-          <p>Years of Experience</p>
-        </div>
-        <div>
-          <h3>12</h3>
-          <p>Projects Completed</p>
-        </div>
+<!-- Hero Section -->
+<header class="text-light text-center bg-dark py-5 mt-5">  <!-- Agregamos mt-5 -->
+  <div class="container">
+    <h1>Hello 👋</h1>
+    <p class="fs-4">I'm a Web Developer</p>
+    <p class="text-muted">I build things for the web</p>
+    <div class="d-flex justify-content-center gap-3">
+      <div>
+        <h3>3</h3>
+        <p>Years of Experience</p>
+      </div>
+      <div>
+        <h3>12</h3>
+        <p>Projects Completed</p>
       </div>
     </div>
-  </header>
+  </div>
+</header>
+
 
   <!-- About Section -->
   <section id="about" class="bg-light py-5">
     <div class="container text-center">
       <h2>About Me</h2>
       <p class="lead">
-        <h2 class="mb-4">Hola, soy Carlos Ignacio</h2>
+        <h2 class="mb-4">Hola, soy Carlos Agavio</h2>
         <p>Soy estudiante de Matemáticas Aplicadas y Computación, con un gran interés en áreas como inteligencia artificial, ciencia de datos y análisis estadístico. Me apasiona aplicar mis conocimientos para resolver problemas del mundo real y contribuir al desarrollo de proyectos innovadores.</p>
         <p>Además, tengo experiencia en desarrollo web y bases de datos, lo que me permite integrar soluciones tecnológicas efectivas y optimizadas. Siempre busco aprender nuevas tecnologías y herramientas para mejorar continuamente.</p>
         <p>En mi tiempo libre, disfruto explorar nuevas áreas del conocimiento, experimentar con herramientas como Blender para diseño 3D y buscar formas de conectar la tecnología con el impacto social.</p>
@@ -117,8 +122,8 @@
       <div class="projects-grid">
           <!-- Project 1 -->
           <div class="project-card">
-              <img src="" alt="Project 1" class="project-img">
-              <h2 class="project-title">E-commerce Website</h2>
+              <img src="img/acaTianguis.png" alt="Project 1" class="project-img">
+              <h2 class="project-title">AcaTianguis</h2>
               <p class="project-description">
                   A full-stack e-commerce website with payment integration, user authentication, and product management.
               </p>
@@ -127,7 +132,7 @@
 
           <!-- Project 2 -->
           <div class="project-card">
-              <img src="" alt="Project 2" class="project-img">
+              <img src="img/portafolio.png" alt="Project 2" class="project-img">
               <h2 class="project-title">Portfolio Website</h2>
               <p class="project-description">
                   A responsive personal portfolio to showcase my skills, projects, and experience.
@@ -137,7 +142,7 @@
 
           <!-- Project 3 -->
           <div class="project-card">
-              <img src="" alt="Project 3" class="project-img">
+              <img src="img/dashboard.png" alt="Project 3" class="project-img">
               <h2 class="project-title">Data Analytics Dashboard</h2>
               <p class="project-description">
                   An interactive dashboard to visualize data insights using Python, Django, and PostgreSQL.
@@ -169,7 +174,23 @@
 
   <!-- Footer -->
   <footer class="text-center py-4 bg-dark text-light">
-    <p>Designed and built by Hi<span style="color: #b812d0">Dev</span> with ❤️</p>
+    <p>Designed and built by Hi<span style="color: #b812d0"> Dev</span> with ❤️</p>
+
+  <!-- Redes Sociales -->
+    <div>
+      <a href="https://www.facebook.com" class="text-light me-3" target="_blank" title="Facebook">
+        <i class="fab fa-facebook fa-2x"></i>
+      </a>
+      <a href="https://www.twitter.com" class="text-light me-3" target="_blank" title="Twitter">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com" class="text-light me-3" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://www.github.com" class="text-light me-3" target="_blank" title="GitHub">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+    </div>
   </footer>
 
   <!-- Bootstrap JS -->

@@ -407,3 +407,18 @@ body {
   color: #8121d0;
   margin-right: 10px;
 }
+.language-icon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer; /* Opcional, si deseas que sean interactivos */
+}
+
+.navbar-nav .nav-item .language-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ms-2 {
+  margin-left: 0.5rem; /* Espaciado entre los íconos */
+}
+
