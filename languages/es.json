@@ -1,0 +1,44 @@
+{
+    "menu" : {
+        "item2" : "Sobre mí",
+        "item3" : "Habilidades", 
+        "item4" : "Proyectos",
+        "item5" : "Contacto"
+    }, 
+
+    "home" : {
+        "home-text-1": "Hola 👋",
+        "home-text-2": "Soy un Desarrollador Web",
+        "home-experience": "Años de experiencia",
+        "home-projects": "Proyectos realizados"
+    }, 
+
+    "about-me" : {
+        "about-text-1": "Sobre mí", 
+        "about-text-2": "Hola, soy Carlos Agavio",
+        "about-text-3": "Soy estudiante de Matemáticas Aplicadas y Computación, con un gran interés en áreas como inteligencia artificial, ciencia de datos y análisis estadístico. Me apasiona aplicar mis conocimientos para resolver problemas del mundo real y contribuir al desarrollo de proyectos innovadores."
+    }, 
+    "skills" : {
+        "skills-text-1": "Mis habilidades",
+        "skills-text-2": "Tecnologías y herramientas con las que he estado trabajando recientemente:",
+        "skills-text-3": "Desarrollo de front-end",
+        "skills-text-4": "Desarrollo de backend",
+        "skills-text-5": "Herramientas y plataformas"
+    },
+    "projects" : {
+        "projects-text-1": "Mis proyectos",
+        "projects-text-2": "Estos son algunos de los proyectos en los que he trabajado recientemente:",
+        "projects-text-3": "Un sitio web de comercio electrónico completo con integración de pagos, autenticación de usuarios y gestión de productos.",
+        "projects-text-4": "Un portafolio personal receptivo para mostrar mis habilidades, proyectos y experiencia.",
+        "projects-text-5": "Un dashboard para visualizar datos utilizando Python, Django y PostgreSQL.",
+        "projects-text-view": "Ver proyecto"
+    },
+    "contact" : {
+        "contact-text": "Hablemos de algo interesante juntos",
+        "contact-text-name": "Su nombre",
+        "contact-text-email": "Su correo electrónico",
+        "contact-text-message": "Su mensaje",
+        "contact-text-submit": "Enviar"
+    }
+
+}

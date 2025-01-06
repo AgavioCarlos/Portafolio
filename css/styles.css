@@ -61,7 +61,23 @@ body {
     border-radius: 10px;
     margin: 0 1rem;
   }
-  
+  .flags{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .flags_item{
+    width: 30px;
+  }
+
+  .flags_item.img{
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+
+  }
+
   /* About Section */
   #about {
     padding: 3rem 1rem;

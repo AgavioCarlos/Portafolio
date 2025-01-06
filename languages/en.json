@@ -1,0 +1,43 @@
+{
+    "menu": {
+        "item2": "About me",
+        "item3": "Skills",
+        "item4": "Projects",
+        "item5": "Contact"
+    },
+
+    "home" : {
+        "home-text-1": "Hello 👋", 
+        "home-text-2": "I'm a Web Developer",
+        "home-experience": "Years of Experience",
+        "home-projects": "Projects Completed"
+    },
+
+    "about-me": {
+        "about-text-1": "About me", 
+        "about-text-2": "Hi, I'm Carlos Agavio",
+        "about-text-3": "I am a student of Applied Mathematics and Computer Science, with a strong interest in areas such as artificial intelligence, data science and statistical analysis. I am passionate about applying my knowledge to solve real-world problems and contribute to the development of innovative projects."
+    }, 
+    "skills": {
+        "skills-text-1": "My Skills",
+        "skills-text-2": "Technologies and tools I've been working with recently:",
+        "skills-text-3": "Front-end development",
+        "skills-text-4": "Backend Development",
+        "skills-text-5": "Tools & Platforms"
+    },
+    "projects" : {
+        "projects-text-1": "My Projects",
+        "projects-text-2": "Here are some of the projects I've worked on recently:",
+        "projects-text-3": "A full-stack e-commerce website with payment integration, user authentication, and product management.",
+        "projects-text-4": "A responsive personal portfolio to showcase my skills, projects, and experience.",
+        "projects-text-5": "An interactive dashboard to visualize data insights using Python, Django, and PostgreSQL.",
+        "projects-text-view": "View Project"
+    },
+    "contact" : {
+        "contact-text": "Let's discuss something cool together",
+        "contact-text-name": "Your Name",
+        "contact-text-email": "Your Email",
+        "contact-text-message": "Your Message",
+        "contact-text-submit": "Submit"
+    }
+}

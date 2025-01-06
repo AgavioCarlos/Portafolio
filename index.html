@@ -25,15 +25,23 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about" data-section="menu" data-value="item2" >Sobre mí</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills" data-section="menu" data-value="item3" >Habilidades</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects" data-section="menu" data-value="item4" >Proyectos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact" data-section="menu" data-value="item5" >Contacto</a></li>
         <li class="nav-item d-flex align-items-center ms-3">
-          <img src="img/espaniol.png" alt="Español" class="language-icon">
-          <img src="img/ingles.png" alt="Inglés" class="language-icon ms-2">
+          <!-- <img src="img/espaniol.png" alt="Español" class="language-icon">
+          <img src="img/ingles.png" alt="Inglés" class="language-icon ms-2"> -->
         </li>
       </ul>
+    </div>
+  </div>
+  <div id="flags" class="flags">
+    <div class="flags_item" data-language="es">
+      <img src="img/es.svg" alt="">
+    </div>
+    <div class="flags_item" data-language="en">
+      <img src="img/gb.svg" alt="">
     </div>
   </div>
 </nav>
@@ -41,17 +49,17 @@
 <!-- Hero Section -->
 <header class="text-light text-center bg-dark py-5 mt-5">  <!-- Agregamos mt-5 -->
   <div class="container">
-    <h1>Hello 👋</h1>
-    <p class="fs-4">I'm a Web Developer</p>
+    <h1 data-section="home" data-value="home-text-1">Hola 👋</h1>
+    <p class="fs-4" data-section="home" data-value="home-text-2">Soy un Desarrollador Web</p>
     <p class="text-muted">I build things for the web</p>
     <div class="d-flex justify-content-center gap-3">
       <div>
-        <h3>3</h3>
-        <p>Years of Experience</p>
+        <h3>2</h3>
+        <p data-section="home" data-value="home-experience">Años de experiencia</p>
       </div>
       <div>
-        <h3>12</h3>
-        <p>Projects Completed</p>
+        <h3>5</h3>
+        <p data-section="home" data-value="home-projects">Proyectos realizados</p>
       </div>
     </div>
   </div>
@@ -61,26 +69,32 @@
   <!-- About Section -->
   <section id="about" class="bg-light py-5">
     <div class="container text-center">
-      <h2>About Me</h2>
+      <h2 data-section="about-me" data-value="about-text-1" >Sobre mí</h2>
       <p class="lead">
-        <h2 class="mb-4">Hola, soy Carlos Agavio</h2>
-        <p>Soy estudiante de Matemáticas Aplicadas y Computación, con un gran interés en áreas como inteligencia artificial, ciencia de datos y análisis estadístico. Me apasiona aplicar mis conocimientos para resolver problemas del mundo real y contribuir al desarrollo de proyectos innovadores.</p>
-        <p>Además, tengo experiencia en desarrollo web y bases de datos, lo que me permite integrar soluciones tecnológicas efectivas y optimizadas. Siempre busco aprender nuevas tecnologías y herramientas para mejorar continuamente.</p>
-        <p>En mi tiempo libre, disfruto explorar nuevas áreas del conocimiento, experimentar con herramientas como Blender para diseño 3D y buscar formas de conectar la tecnología con el impacto social.</p>
+        <h2 class="mb-4" data-section="about-me" data-value="about-text-2">Hola, soy Carlos Agavio</h2>
+        <p data-section="about-me" data-value="about-text-3">Soy estudiante de Matemáticas Aplicadas y Computación, con un gran interés en áreas como inteligencia artificial, ciencia de datos y análisis estadístico. Me apasiona aplicar mis conocimientos para resolver problemas del mundo real y contribuir al desarrollo de proyectos innovadores.</p>
       </p>
+    </div>
+    <div id="flags" class="flags">
+      <div id="flags_item" data-language="es">
+        <img src="img/es.svg" alt="">
+      </div>
+      <div id="flags_item" data-language="en">
+        <img src="img/gb.svg" alt="">
+      </div>
     </div>
   </section>
 
   <!-- Skills Section -->
   <section id="skills" class="skills">
     <div class="container">
-        <h1 class="section-title">My Skills</h1>
-        <p class="section-description">Technologies and tools I've been working with recently:</p>
+        <h1 class="section-title" data-section="skills" data-value="skills-text-1">Mis habilidades</h1>
+        <p class="section-description" data-section="skills" data-value="skills-text-2">Tecnologías y herramientas con las que he estado trabajando recientemente:</p>
 
         <div class="skills-grid">
             <!-- Frontend Skills -->
             <div class="skill-category">
-                <h2>Frontend Development</h2>
+                <h2 data-section="skills" data-value="skills-text-3" >Desarrollo de front-end</h2>
                 <ul class="skill-list">
                     <li><i class="fab fa-html5"></i> HTML</li>
                     <li><i class="fab fa-css3-alt"></i> CSS</li>
@@ -91,7 +105,7 @@
 
             <!-- Backend Skills -->
             <div class="skill-category">
-                <h2>Backend Development</h2>
+                <h2 data-section="skills" data-value="skills-text-4" >Desarrollo de backend</h2>
                 <ul class="skill-list">
                     <li><i class="fas fa-database"></i> Node.js</li>
                     <li><i class="fas fa-server"></i> Express.js</li>
@@ -102,7 +116,7 @@
 
             <!-- Tools -->
             <div class="skill-category">
-                <h2>Tools & Platforms</h2>
+                <h2 data-section="skills" data-value="skills-text-5" >Herramientas y plataformas  </h2>
                 <ul class="skill-list">
                     <li><i class="fab fa-git-alt"></i> Git</li>
                     <li><i class="fab fa-github"></i> GitHub</li>
@@ -116,38 +130,38 @@
 <!-- Projects Section -->
 <section id="projects" class="projects">
   <div class="container">
-      <h1 class="section-title">My Projects</h1>
-      <p class="section-description">Here are some of the projects I've worked on recently:</p>
+      <h1 class="section-title" data-section="projects" data-value="projects-text-1" >Mis proyectos</h1>
+      <p class="section-description" data-section="projects" data-value="projects-text-2" >Estos son algunos de los proyectos en los que he trabajado recientemente:</p>
 
       <div class="projects-grid">
           <!-- Project 1 -->
           <div class="project-card">
               <img src="img/acaTianguis.png" alt="Project 1" class="project-img">
               <h2 class="project-title">AcaTianguis</h2>
-              <p class="project-description">
-                  A full-stack e-commerce website with payment integration, user authentication, and product management.
+              <p class="project-description" data-section="projects" data-value="projects-text-3" >
+                Un sitio web de comercio electrónico completo con integración de pagos, autenticación de usuarios y gestión de productos.
               </p>
-              <a href="#" class="project-link">View Project</a>
+              <a href="#" class="project-link" data-section="projects" data-value="projects-text-view" >Ver proyecto</a>
           </div>
 
           <!-- Project 2 -->
           <div class="project-card">
               <img src="img/portafolio.png" alt="Project 2" class="project-img">
               <h2 class="project-title">Portfolio Website</h2>
-              <p class="project-description">
-                  A responsive personal portfolio to showcase my skills, projects, and experience.
+              <p class="project-description" data-section="projects" data-value="projects-text-4" >
+                Un portafolio personal receptivo para mostrar mis habilidades, proyectos y experiencia.
               </p>
-              <a href="#" class="project-link">View Project</a>
+              <a href="#" class="project-link" data-section="projects" data-value="projects-text-view" >Ver proyecto</a>
           </div>
 
           <!-- Project 3 -->
           <div class="project-card">
               <img src="img/dashboard.png" alt="Project 3" class="project-img">
               <h2 class="project-title">Data Analytics Dashboard</h2>
-              <p class="project-description">
-                  An interactive dashboard to visualize data insights using Python, Django, and PostgreSQL.
+              <p class="project-description" data-section="projects" data-value="projects-text-5" >
+                Un dashboard para visualizar datos utilizando Python, Django y PostgreSQL.
               </p>
-              <a href="#" class="project-link">View Project</a>
+              <a href="#" class="project-link" data-section="projects" data-value="projects-text-view" >Ver proyecto</a>
           </div>
       </div>
   </div>
@@ -156,18 +170,18 @@
   <!-- Contact Section -->
   <section id="contact" class="py-5 text-center bg-dark text-light">
     <div class="container">
-      <h2>Let's discuss something cool together</h2>
+      <h2 data-section="contact" data-value="contact-text" >Hablemos de algo interesante juntos</h2>
       <form class="mt-4">
         <div class="mb-3">
-          <input type="text" class="form-control" placeholder="Your Name" required>
+          <input type="text" class="form-control" placeholder="Nombre | Name" required>
         </div>
         <div class="mb-3">
-          <input type="email" class="form-control" placeholder="Your Email" required>
+          <input type="email" class="form-control" placeholder="Email" required>
         </div>
         <div class="mb-3">
-          <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+          <textarea class="form-control" rows="5" placeholder="Mensaje | Message" required></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary"data-section="contact" data-value="contact-text-submit" >Enviar</button>
       </form>
     </div>
   </section>
@@ -178,12 +192,6 @@
 
   <!-- Redes Sociales -->
     <div>
-      <a href="https://www.facebook.com" class="text-light me-3" target="_blank" title="Facebook">
-        <i class="fab fa-facebook fa-2x"></i>
-      </a>
-      <a href="https://www.twitter.com" class="text-light me-3" target="_blank" title="Twitter">
-        <i class="fab fa-twitter fa-2x"></i>
-      </a>
       <a href="https://www.linkedin.com" class="text-light me-3" target="_blank" title="LinkedIn">
         <i class="fab fa-linkedin fa-2x"></i>
       </a>
@@ -197,5 +205,6 @@
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
   ></script>
+  <script src="script.js"></script>
 </body>
 </html>
