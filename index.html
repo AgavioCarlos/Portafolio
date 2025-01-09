@@ -171,15 +171,15 @@
   <section id="contact" class="py-5 text-center bg-dark text-light">
     <div class="container">
       <h2 data-section="contact" data-value="contact-text" >Hablemos de algo interesante juntos</h2>
-      <form class="mt-4">
+      <form class="mt-4" name="contact" netlify>
         <div class="mb-3">
-          <input type="text" class="form-control" placeholder="Nombre | Name" required>
+          <input type="text" name="name" class="form-control" placeholder="Nombre | Name" required>
         </div>
         <div class="mb-3">
-          <input type="email" class="form-control" placeholder="Email" required>
+          <input type="email" class="form-control" name="email" placeholder="Email" required>
         </div>
         <div class="mb-3">
-          <textarea class="form-control" rows="5" placeholder="Mensaje | Message" required></textarea>
+          <textarea class="form-control" name="message" rows="5" placeholder="Mensaje | Message" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary"data-section="contact" data-value="contact-text-submit" >Enviar</button>
       </form>
